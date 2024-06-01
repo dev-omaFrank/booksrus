@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class=" container ">
+        <div class="top">
+            <div class="brand-name-left ">
+                <h3> Books 'R' Us</h3>
+            </div>
+            <div class="brand-name-right ">
+                <form action="" method="post">
+                    <div class="login-part ">
+                        <label for="Email" style="margin-right:10px;">
+                            <!-- fix the responsive styling for the input fields  -->
+                                <div class="displayError"></div>
+                                  <input type="email" name="Email" id="email-input-field" placeholder="Email here..." >
+                                </label>
+                        <label for="Password">
+                                <div class="displayError"></div>
+                                  <input type="password" name="Password" id="password-input-field" placeholder="Password here...">
+                                </label>
+                    </div>
+
+                    <div class="login-part-bottom ">
+                        <p>New here?
+                            <a href="signup.html"><i>Sign up</i></a>
+                        </p>
+                        <p>|</p>
+                        <a href=" ">
+                            <p><strong>Forgot Password?</strong></p>
+                        </a>
+                        <div class="login-button">
+                            <button id="login_submit_button" type="submit">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <nav>
+            <a href="#" class="active" disabled>
+                <p class="fa fa-bars" alt="menu icon" style="left: 10px;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAATElEQVRIS2NkoDFgpLH5DKMWEAzhAQmi/wSdhV8BiqOx+YDmFlDoAVTtAxIHNPcBzeOA5hbQPIiGvgU0jwOaWzD042DUByghQPPSFABt6AYZfO/+XQAAAABJRU5ErkJggg==" /></p>
+            </a>
+            <div id="nav_links">
+                <a href="index.html">Home</a>
+                <a href="#">Browse</a>
+                <a href="#">How It Works</a>
+                <a href="#">Our Plans</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </nav>
+        <div class="maincontent">
+            <div class="maincontent-leftside">
+                <div class="browse">
+                    <img class="browseimg" src="assets/images/take-your-child-to-the-library-day1-scaled.avif" alt="">
+                </div>
+                <div class="top-rated">
+                    <div class="top-rated-top">
+                        <h3>Top Rated Books</h3>
+
+                        <h3 class="stars">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                        </h3>
+                    </div>
+                    <hr>
+                    <div class="card-part">
+                        <!-- use icons to represent the > and < -->
+                        <button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAqklEQVRIS+2U0Q2AIAwFZQM30RF0Ih1BJ9MRdBNHsE0kaQzQlsIfJv3DO/oKuK7y5yrzuyZgE9ZE1ANtgdpZKlkgFSD8gBo/wSaVSAQUfgN4gnpKCUxw3ESqAzM8JSgCjwkoXBp1dLOhiFBwQg0aeizu2Ayo5IKfZ83JoRvjhuw7yZZw98DcCSfAbk0SieAvwbeo6FPhZ4adrBo4d5OVpzS8XBpRtqwJ2OhewR4gGcs4OsAAAAAASUVORK5CYII="/></button>
+                        <div id="card">
+
+                        </div>
+                        <div id="card">
+
+                        </div>
+                        <div id="card">
+
+                        </div>
+                        <div id="card">
+
+                        </div>
+
+                        <button> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAoElEQVRIS+2U4Q1AMBSEdQObMAIb2NQIjMAmNuCakEhT+u6oXyTvX/N93Dt1RebHZeYXvyCZsBJRB+qIWZJ0HGAFHt5jJkxrkbCCcn/7yiphBT4VSqIIKIkqMEvuBKulJacz0cW/KZgha8JmPY1oALDGROH+61SBb1ISrgrMcEVAwRXBcVVcZh42T9lB1suO/DX0FplFSkRmuLJkCv6JYAMMICgZjF2oLgAAAABJRU5ErkJggg=="/> </button>
+                    </div>
+                    <button>More...</button>
+                </div>
+                <div class="latest-arrivals">
+                    <div class="latest-arrivals-top">
+                        <h3>Latest Arrivals</h3>
+
+                        <h3 class="stars">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABR0lEQVRIS7VVixHBQBBNKkAHVIAKUAEqEBWgAlRAB6IDHaADKqAEKuC9zF3m5tzl7iTZmR3JWu/tXxzVLHHN+FEowQ0BfaB938BCCBKAHgTwHJ+pD0kIwQWAAwHK51GVBEOAnTVAEpCoUHwzYDlmGtIR7yxbaYI2EB4WlA7szyIGNYMJHLtQAlIpTWjPESQn6yV8SEa9Q0+0qQQcvyolw1YJErzLMSxLlI+x3uSyJG9EtoSmMkLTFP1LQvAhlD3JxTamoSRGcL0Het33MCw8m2FduqJFuwBcngYXzwoODOhHighCxvYq6u9NwGbpt8eVRQsOcuGcTeao7QyIW2FbG76bwpZtryq2EtFxrDhy9ROoHEGejxTK0yLFePxsBEy1IX7JqDeW+tAus3nimcfPKwMZqRq1hSM7hsyG8nMYff8PbOBOe+0EXxeJNRkmAuuOAAAAAElFTkSuQmCC"
+                            />
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABmUlEQVRIS7WUgU0DMQxF2wmgE1AmACbgmACYgOsEwAQtEwATcJ0ANqBsABP0NgAmgP+q5GSFJCSCWvpKLor/t3O2x6Mt23jL/KNagVcF9CUclQZWI9CK9MERz7R2JSI1AisRHjtS9if/KdCI7NkRfmrdcQIIZa00A57jwjHdaJ0LS4Fn+7PAVAxrwzLR/t1972vtcwo2gzNdPBAgBNiucBgQ4GMzorI+3B3EwJvwxJkVoPxKDB8CsFnF/DbcVqDVty/DnFD438iQTO8EXgAbyji8XCIS+kB+K+BLhV0JnY8wVkW/iVgfyClfsoC8Efgng6XKNCdifSDjWaLkqOT6gDe9tNG4vfXpdbYn0NWryN2sAA5+NKSy5q1pwGuBgH5YLoNU2fIsVAkrvfMovAhNjQCX/eyJ+XG2EO4F39V0uG+4wSeVAaVG6YXGHMKYRRhZUElT4VzYdK+1lAAXT81FWr91hBxTlp3gG4uz6PBLCZAqIxkj6kUYmfvm3GfTa8/wK8rAN4uNOqExZOMzKxJIkVWf58q0mizm8A35/0YZV/UdAAAAAABJRU5ErkJggg=="
+                            />
+                        </h3>
+                    </div>
+                    <hr>
+                    <div class="glide card-part">
+                        <!-- Button for previous slide -->
+                        <button class="glide__arrow glide__arrow--left" id="prevButton">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAqklEQVRIS+2U0Q2AIAwFZQM30RF0Ih1BJ9MRdBNHsE0kaQzQlsIfJv3DO/oKuK7y5yrzuyZgE9ZE1ANtgdpZKlkgFSD8gBo/wSaVSAQUfgN4gnpKCUxw3ESqAzM8JSgCjwkoXBp1dLOhiFBwQg0aeizu2Ayo5IKfZ83JoRvjhuw7yZZw98DcCSfAbk0SieAvwbeo6FPhZ4adrBo4d5OVpzS8XBpRtqwJ2OhewR4gGcs4OsAAAAAASUVORK5CYII=" alt="Previous">
+                            </button>
+                        <div class="glide__track" data-glide-el="track">
+                            <div class="glide__slides">
+                                <!-- Add your card elements here -->
+                                <div class="glide__slide">
+                                    <div id="card1" class="card">
+                                        <img src="assets/images/cover1.jpg" alt="">
+                                        <img src="assets/images/cover5.jpg" alt="">
+                                        <img src="assets/images/cover4.jpg" alt="">
+                                        <img src="assets/images/cover2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="glide__slide">
+                                    <div id="card1" class="card">
+                                        <img src="assets/images/cover3.jpg" alt="">
+                                        <img src="assets/images/cover6.jpg" alt="">
+                                        <img src="assets/images/cover7.jpg" alt="">
+                                        <img src="assets/images/cover8.jpg" alt="">
+
+                                    </div>
+                                </div>
+                                <div class="glide__slide">
+                                    <div id="card1" class="card">
+                                        <img src="assets/images/cover15.jpg" alt="">
+                                        <img src="assets/images/cover12.jpg" alt="">
+                                        <img src="assets/images/cover18.jpg" alt="">
+                                        <img src="assets/images/cover16.jpg" alt="">`
+                                    </div>
+                                </div>
+
+                                <!-- Add more glide__slide divs for each card element -->
+                            </div>
+                        </div>
+                        <!-- Button for next slide -->
+                        <button class="glide__arrow glide__arrow--right" id="nextButton">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAoElEQVRIS+2U4Q1AMBSEdQObMAIb2NQIjMAmNuCakEhT+u6oXyTvX/N93Dt1RebHZeYXvyCZsBJRB+qIWZJ0HGAFHt5jJkxrkbCCcn/7yiphBT4VSqIIKIkqMEvuBKulJacz0cW/KZgha8JmPY1oALDGROH+61SBb1ISrgrMcEVAwRXBcVVcZh42T9lB1suO/DX0FplFSkRmuLJkCv6JYAMMICgZjF2oLgAAAABJRU5ErkJggg==" alt="Next">
+                  </button>
+                    </div>
+
+                    <button>More...</button>
+                </div>
+            </div>
+            <div class="maincontent-rightside">
+                <div>
+                    <label for="searchbar">
+                        <input type="text" name="" id="search-input-field" placeholder="Enter Search Keyword...">
+                        <!-- add search icon-->
+                    </label>
+                </div>
+                <div id="categories">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Action
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Adventure</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Biography</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Comedy</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Drama</a>
+
+                        </li>
+
+
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Exotic</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Thriller</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Fantasy</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Graphic Novel</a>
+                        </li>
+
+
+                    </ul>
+
+                    <button class="more_button">More...</button>
+                </div>
+
+                <div class="book-of-the-week">
+                    <h3>Book Of The Week</h3>
+                    <hr>
+                    <div class="botw-content">
+                        <div class="botw-right">
+                            <img src="assets/images/book1.png" alt="">
+                        </div>
+                        <div class="botw-left">
+                            <h5 class="botw-title">
+                                Black Hat Python
+                            </h5>
+                            <p class="botw-review">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste reprehenderit voluptatum optio a, beatae ipsam omnis dicta saepe rerum quod voluptas cumque quam! Autem omnis ipsum minima ducimus temporibus inventore?
+
+
+                            </p>
+                            <button>More...</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-of-the-week">
+                    <h3>Meet The Dev</h3>
+                    <hr>
+                    <div class="botw-content">
+                        <div class="botw-right">
+                            <img src="assets/images/IMG-20231224-WA0040~2.jpg" alt="" download="false" oncontextmenu="return false;">
+                        </div>
+                        <div class="botw-left">
+                            <h5 class="botw-title">
+                                Oma Frank
+                            </h5>
+                            <p class="botw-review">
+                                Dev Oma Frank thrives on collaboration. Whether you're a fellow entrepreneur, a creative mind, or a business enthusiast, he welcomes the opportunity to work together and bring ideas to life. Let's join forces, share insights, and create something remarkable.
+                                Together, we can achieve more.</br>
+                                You can check out my <a href="https://github.com/dev_omaFrank" style="color:blue;text-decoration:underline;">github</a>, contact me via
+                                <a href="mailto:sayhellotodevops@gmail.com" style="color:blue;text-decoration:underline;"> email</a> or <a href="https://twitter.com/dev_omaFrank" style="color:blue;text-decoration:underline;">twitter.</a><br> Let's collaborate!
+
+
+                            </p>
+                            <button>More...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/handlers/hamburger.js"></script>
+    <script src="assets/js/handlers/login.js"></script>
+
+</body>
+
+</html>
