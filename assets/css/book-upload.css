@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-image: url('../images/27_high_resolution_3k_architectural_fine_wood_seamless_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_2360056.jpg');
+}
+
+.wrapper>h1 {
+    margin-left: 40%;
+}
+
+.container {
+    display: flex;
+    margin: 3%;
+    max-width: 70%;
+}
+
+.location {
+    margin: 3%;
+}
+
+.location>a {
+    font-size: larger;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.location>a:nth-child(2) {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.form {
+    width: 40rem;
+}
+
+.form>label,
+.form>input {
+    display: block;
+    width: 200%;
+    margin: 3%;
+}
+
+.form>input[id=book-title],
+.form>input[id=book-author],
+.form>input[id=level],
+.form>input[id=department],
+.form>input[id=course_code] {
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+}
+
+button[id=submit-button] {
+    color: black;
+}

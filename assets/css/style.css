@@ -1,0 +1,475 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    font-size: 16px;
+    background-image: url('../images/27_high_resolution_3k_architectural_fine_wood_seamless_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_2360056.jpg');
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top {
+    display: flex;
+    margin-left: 10%;
+}
+
+.brand-name-left {
+    padding-block: 20px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+#email-input-field,
+#password-input-field {
+    border: none;
+    padding-block: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+.brand-name-right {
+    margin-left: 50%;
+}
+
+.login-part {
+    background-color: #915e31;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.login-part-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-part-bottom>p,
+.login-part-bottom>a {
+    padding: 3px;
+}
+
+.login-button,
+#login_submit_button {
+    background-color: #915e31;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.login-button>button {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    background-color: #e4ab76;
+    padding-block: 20px;
+}
+
+nav>a {
+    margin-left: 10%;
+}
+
+.maincontent {
+    padding-block: 20px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.browse {
+    width: 50%;
+}
+
+img.browseimg {
+    height: 50vh;
+    width: 687px;
+    border-radius: 10px;
+}
+
+h3 {
+    padding-block: 10px;
+}
+
+.top-rated,
+.latest-arrivals {
+    padding-block: 20px;
+    max-width: 687px;
+}
+
+.card-part {
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card>img,
+.glide__slide>.card>img {
+    height: 29vh;
+    width: 11vw;
+}
+
+.card-part>button {
+    height: 40px;
+    width: 30px;
+    margin-top: 6vh;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+}
+
+.top-rated-top,
+.latest-arrivals-top {
+    display: flex;
+}
+
+.top-rated-top>.stars,
+.latest-arrivals-top>.stars {
+    margin-left: 50%;
+}
+
+.top-rated>button,
+.latest-arrivals>button {
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+    padding-left: 20px;
+    margin-left: 77%;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.maincontent-rightside {
+    margin-left: 10%;
+    max-width: 100%;
+}
+
+#search-input-field {
+    border: none;
+    padding-block: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+#categories {
+    padding-block: 20px;
+}
+
+#categories>h3 {
+    font-size: x-large;
+}
+
+#categories>ul>li {
+    font-size: medium;
+    padding-block: 10px;
+}
+
+#categories>button {
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 40%;
+}
+
+.botw-content {
+    margin-block: 20px;
+    display: flex;
+}
+
+.botw-right>img {
+    height: 25vh;
+    width: 10vw;
+}
+
+.botw-title {
+    font-size: large;
+}
+
+.botw-title,
+.botw-review {
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.book-of-the-week>hr {
+    width: 70%;
+}
+
+.botw-left>button {
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 10%;
+}
+
+
+/* responsive media queries */
+
+
+/* ipads and laptops */
+
+@media screen and (max-device-width: 1440px) {
+    .top {
+        display: flex;
+        margin-left: 5%;
+    }
+    .brand-name-right {
+        margin-left: 45%;
+        padding-block: 20px;
+    }
+    .botw-right>img {
+        height: auto;
+        width: 10vw;
+    }
+}
+
+@media screen and (max-device-width: 1280px) {
+    .top {
+        display: flex;
+        margin-left: 5%;
+    }
+    .brand-name-right {
+        margin-left: 50%;
+        padding-block: 20px;
+    }
+    .botw-right>img {
+        height: auto;
+        width: 10vw;
+    }
+}
+
+@media screen and (min-device-width: 1024px)and (max-device-width: 1440px) {
+    #nav_links {
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 15px;
+    }
+    nav>a {
+        margin-left: 20%;
+    }
+    #nav_links>a {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 768px) {
+    body {
+        font-size: 14px;
+        display: block;
+    }
+    .top {
+        display: flex;
+        margin-left: 5%;
+    }
+    .brand-name-right {
+        margin-left: 0;
+    }
+    nav {
+        /* display: block;
+        width: 100%; */
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    nav>div>a {
+        margin-left: 0% !important;
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    nav>div>a:hover {
+        background-color: #555;
+    }
+    nav>div>a:active {
+        background-color: #04aa6d;
+    }
+    #nav_links {
+        display: none;
+    }
+    .active {
+        background-color: #04aa6d;
+    }
+    nav>a {
+        margin-left: 0% !important;
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    nav>a:hover {
+        background-color: #555;
+    }
+    nav>a:active {
+        background-color: #04aa6d;
+    }
+    .nav-categories {
+        display: block ! important;
+    }
+    .login-part {
+        background-color: #915e31;
+        padding: 10px;
+        justify-content: space-around;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    #input-field {
+        border: none;
+        padding-block: 10px;
+        margin-left: 5%;
+        padding-left: 20px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    .login-button {
+        background-color: #915e31;
+        padding: 3px;
+        border-radius: 5px;
+        padding-block: 9px;
+        margin-right: 20px;
+    }
+    .maincontent {
+        padding-block: 20px;
+        margin: 2.5%;
+        display: block;
+    }
+    img.browseimg {
+        height: 30vh;
+        width: 95vw;
+        border-radius: 10px;
+    }
+    .top-rated-top>.stars,
+    .latest-arrivals-top>.stars {
+        margin-left: 35vw;
+    }
+    #search-input-field {
+        border: none;
+        padding-block: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+        width: 70%;
+        display: none;
+    }
+    .card-part {
+        padding-block: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #card>img,
+    .glide__slide>.card>img {
+        height: 15vh;
+        width: 20vw;
+    }
+    .card-part>button {
+        height: 40px;
+        width: 30px;
+        margin-top: 6vh;
+        background-color: white;
+        color: white;
+        border-radius: 5px;
+    }
+    #categories>h3,
+    #categories>button {
+        display: none
+    }
+    div>ul {
+        display: none;
+    }
+    .botw-right>img {
+        height: 20vh;
+        width: 30vw;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body {
+        max-width: 716px;
+    }
+    .top {
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+    .brand-name-left {
+        padding-block: 10px;
+        font-size: xx-large;
+        font-family: cursive;
+        padding-left: 30px;
+    }
+    .brand-name-right {
+        margin-left: 0%;
+        margin-block: 10px;
+        padding-block: 10px;
+        padding-right: 0px;
+    }
+    #input-field {
+        border: none;
+        padding-block: 10px;
+        padding-left: 0px;
+        border-radius: 5px;
+    }
+    #card>img {
+        height: 15vh;
+        width: 18vw;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 15px;
+    }
+    #nav_links>a {
+        margin-left: 7%;
+    }
+    #nav_links {
+        width: 120%
+    }
+    .nav-categories {
+        display: block ! important;
+    }
+    .maincontent {
+        display: block;
+        margin-left: 35px;
+    }
+    .browse>img {
+        padding: 0px;
+    }
+    .top-rated-top>.stars,
+    .latest-arrivals-top>.stars {
+        margin-left: 50%;
+    }
+    #search-input-field {
+        display: none;
+    }
+    #categories>ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: fit-content;
+    }
+    .book-of-the-week {
+        max-width: 70%;
+    }
+}
