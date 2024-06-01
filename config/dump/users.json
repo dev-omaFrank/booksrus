@@ -1,0 +1,13 @@
+[{
+        "email": "yu@gmial.com",
+        "password": "888888xxxxx",
+        "user_avatar": "..\/vendor\/yu.jpg",
+        "acct_type": "user"
+    },
+    {
+        "email": "admin@gmial.com",
+        "password": "ssssssssssssssss",
+        "user_avatar": "..\/vendor\/yu.jpg",
+        "acct_type": "admin"
+    }
+]

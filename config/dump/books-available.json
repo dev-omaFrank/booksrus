@@ -1,0 +1,158 @@
+[{
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "issue_date": "2023-01-15",
+        "return_date": "2023-02-15",
+        "status": "Borrowed"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "issue_date": "2023-02-10",
+        "return_date": "2023-03-10",
+        "status": "Returned"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "issue_date": "2023-03-05",
+        "return_date": "2023-04-05",
+        "status": "Returned"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "issue_date": "2023-04-20",
+        "return_date": "2023-05-20",
+        "status": "Borrowed"
+    },
+    {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "issue_date": "2023-05-12",
+        "return_date": "2023-06-12",
+        "status": "Returned"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "issue_date": "2023-06-30",
+        "return_date": "2023-07-30",
+        "status": "Returned"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "issue_date": "2023-07-15",
+        "return_date": "2023-08-15",
+        "status": "Returned"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "issue_date": "2023-08-10",
+        "return_date": "2023-09-10",
+        "status": "Returned"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "issue_date": "2023-09-25",
+        "return_date": "2023-10-25",
+        "status": "Returned"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "issue_date": "2023-10-05",
+        "return_date": "2023-11-05",
+        "status": "Returned"
+    }, {
+        "title": "The Five Deadly Sins",
+        "author": "Oma Frank",
+        "issue_date": "2023-02-10",
+        "return_date": "2023-03-10",
+        "status": "Borrowed"
+    }, {
+        "title": "The Art Of Hacking",
+        "author": "Kevin Mitnick",
+        "issue_date": "2023-02-10",
+        "return_date": "2023-03-10",
+        "status": "Returned"
+    },
+    {
+        "title": "Into Th Badlands",
+        "author": "George Orwell",
+        "issue_date": "2023-02-10",
+        "return_date": "2023-03-10",
+        "status": "Returned"
+    },
+    {
+        "title": "Jaws",
+        "author": "F. Scott Fitzgerald",
+        "issue_date": "2023-03-05",
+        "return_date": "2023-04-05",
+        "status": "Returned"
+    },
+    {
+        "title": "Welcome To Futo",
+        "author": "Jane Austen",
+        "issue_date": "2023-04-20",
+        "return_date": "2023-05-20",
+        "status": "Borrowed"
+    },
+    {
+        "title": "Ali-Baba And The Forty Thieves",
+        "author": "J.K. Rowling",
+        "issue_date": "2023-05-12",
+        "return_date": "2023-06-12",
+        "status": "Returned"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "issue_date": "2023-06-30",
+        "return_date": "2023-07-30",
+        "status": "Returned"
+    },
+    {
+        "title": "The Gentlemen",
+        "author": "Harper Lee",
+        "issue_date": "2023-07-15",
+        "return_date": "2023-08-15",
+        "status": "Returned"
+    },
+    {
+        "title": "Rio de Janerio",
+        "author": "J.R.R. Tolkien",
+        "issue_date": "2023-08-10",
+        "return_date": "2023-09-10",
+        "status": "Returned"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "issue_date": "2023-09-25",
+        "return_date": "2023-10-25",
+        "status": "Returned"
+    },
+    {
+        "title": "The Hulk",
+        "author": "Harper Lee",
+        "issue_date": "2023-10-05",
+        "return_date": "2023-11-05",
+        "status": "Returned"
+    }, {
+        "title": "The Five Deadly Sins",
+        "author": "Oma Frank",
+        "issue_date": "2023-02-10",
+        "return_date": "2023-03-10",
+        "status": "Borrowed"
+    }, {
+        "title": "SpiderMan",
+        "author": "Peter Parker",
+        "issue_date": "2023-02-10",
+        "return_date": "2023-03-10",
+        "status": "Returned"
+    }
+]

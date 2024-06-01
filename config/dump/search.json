@@ -1,0 +1,231 @@
+[{
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "category": "Adventure",
+        "location": "02-15",
+        "number_of_copies": "0",
+        "status": "Out Of Stock",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "category": "Adventure",
+        "location": "03-10",
+        "number_of_copies": "5",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "category": "Adventure",
+        "location": "04-05",
+        "number_of_copies": "5",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "category": "fiction",
+        "location": "05-20",
+        "number_of_copies": "0",
+        "status": "Out Of Stock",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "category": "fiction",
+        "location": "06-12",
+        "number_of_copies": "2",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "category": "fiction",
+        "location": "07-30",
+        "number_of_copies": "2",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "category": "fiction",
+        "location": "08-15",
+        "number_of_copies": "3",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "category": "Fantasy",
+        "location": "09-10",
+        "number_of_copies": "3",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "category": "Fantasy",
+        "location": "10-25",
+        "number_of_copies": "3",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "category": "Fantasy",
+        "location": "11-05",
+        "number_of_copies": "4",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Five Deadly Sins",
+        "author": "Oma Frank",
+        "category": "Fantasy",
+        "location": "03-10",
+        "number_of_copies": "0",
+        "status": "Out Of Stock",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Art Of Hacking",
+        "author": "Kevin Mitnick",
+        "category": "Sci-Fi",
+        "location": "03-10",
+        "number_of_copies": "4",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Into Th Badlands",
+        "author": "George Orwell",
+        "category": "Sci-Fi",
+        "location": "03-10",
+        "number_of_copies": "1",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Jaws",
+        "author": "F. Scott Fitzgerald",
+        "category": "Sci-Fi",
+        "location": "04-05",
+        "number_of_copies": "1",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Welcome To Futo",
+        "author": "Jane Austen",
+        "category": "Comedy",
+        "location": "05-20",
+        "number_of_copies": "0",
+        "status": "Out Of Stock",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Ali-Baba And The Forty Thieves",
+        "author": "J.K. Rowling",
+        "category": "fiction",
+        "location": "06-12",
+        "number_of_copies": "10",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "category": "Sci-Fi",
+        "location": "07-30",
+        "number_of_copies": "10",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Gentlemen",
+        "author": "Harper Lee",
+        "category": "Crime",
+        "location": "08-15",
+        "number_of_copies": "10",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "Rio de Janerio",
+        "author": "J.R.R. Tolkien",
+        "category": "Comedy",
+        "location": "09-10",
+        "number_of_copies": "17",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "category": "Comedy",
+        "location": "10-25",
+        "number_of_copies": "17",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Hulk",
+        "author": "Harper Lee",
+        "category": "Comedy",
+        "location": "11-05",
+        "number_of_copies": "17",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "The Five Deadly Sins",
+        "author": "Oma Frank",
+        "category": "02-10",
+        "location": "03-10",
+        "number_of_copies": "0",
+        "status": "Out Of Stock",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    },
+    {
+        "title": "SpiderMan",
+        "author": "Peter Parker",
+        "category": "Comedy",
+        "location": "03-10",
+        "number_of_copies": "17",
+        "status": "Available",
+        "created_date": "2024-06-01",
+        "last_updated": "2024-06-01"
+    }
+]
