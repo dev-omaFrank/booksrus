@@ -1,5 +1,5 @@
 <?php
-
+  // this part of the code works with database. However since I am storing the data in json files, I have taken out this bit. Feel free to go through it if the usecase applies to you.
   // include 'handles/connection.php';
   // include 'functions.php';
 
@@ -86,7 +86,7 @@
   //   }
   // }
 
-
+  // this part of the code works with JSON files to store the data. Feel free to go through it if the usecase applies to you.
   
   include 'functions.php';
 
